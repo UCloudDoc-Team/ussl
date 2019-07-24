@@ -19,8 +19,3 @@
 
 主机记录值参考https://docs.ucloud.cn/domain/ussl/faq/free
 
-示例如下：
-
-![](/images/free/域名存在cname.png)
-
-![](/images/free/dnsauth.png)
