@@ -17,7 +17,7 @@
 
 如果DNS验证中txt记录与cname记录冲突导致无法验证成功，可在原主机记录， 域名前加一级\_dnsauth. 来避免冲突
 
-主机记录值参考https://docs.ucloud.cn/security/ussl/operate/fill填写
+主机记录值参考https://docs.ucloud.cn/domain/ussl/faq/free
 
 示例如下：
 
