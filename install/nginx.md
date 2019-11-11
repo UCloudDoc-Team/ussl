@@ -15,7 +15,7 @@
 到nginx的conf目录，找到nginx.conf文件，修改或者配置这样一段
 
     server {
-            listen       443;
+            listen       443;(ps:nginx1.15及以上的版本要修改为listen 443 ssl；)
             server_name  www.trustasia.com #你们的域名，如www.abc.com;
             ssl                  on;
             ssl_certificate      /xxx/xxx/server.pem; #根据实际的路径和文件名配置
