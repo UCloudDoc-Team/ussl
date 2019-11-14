@@ -6,13 +6,15 @@
 
 登录：<https://console.ucloud.cn/ussl/ussl>
 
-查看订单后，操作：证书下载，解压缩后看到如图的文件夹
+查看订单后，操作：证书下载，需要从此处[格式转换工具](/security/ussl/faq/certificateconvert)转换为JKS格式的证书
 
-![](/images/install/文件.png)
+JKS格式证书解压缩后看到如图的文件夹
+
+![](/images/jsk.png)
 
 文件夹内文件的格式为pem，cer后缀的是证书公钥(此文件可以改名为server.pem)，key后缀的是私钥(可以改名为server.key)
 
-需要从此处[格式转换工具](/security/ussl/faq/certificateconvert)转换为JKS格式的证书
+
 
 二、到tomcat中部署证书
 
