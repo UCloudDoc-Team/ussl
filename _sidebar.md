@@ -51,7 +51,7 @@
     * [SSL证书过期了怎么办?](domain/ussl/faq/expired)
     * [证书正常安装后提示不安全](domain/ussl/faq/abnormal)
     * [证书格式的区别](domain/ussl/faq/certificate)
- 
+    * [苹果公司宣布Safari浏览器对SSL证书有效期的要求说明](domain/ussl/faq/Safari)
 
 
 
