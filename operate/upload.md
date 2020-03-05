@@ -14,7 +14,7 @@
 
 **普通格式**
 
-证书文件包含：公钥：public.crt、私钥：private.key、ca证书链：CA.crt；请按照按照下图指引进行上传
+证书文件包含：公钥：public.crt、私钥：private.key、ca证书链：CA.crt；请按照下图指引进行上传
 ![](/images/operate/证书文件选择.png)
 
 **pem格式**
