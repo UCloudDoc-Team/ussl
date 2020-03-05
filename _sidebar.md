@@ -27,6 +27,7 @@
     * [验证身份](domain/ussl/operate/fill)
     * [证书退费](domain/ussl/operate/refund)
     * [吊销证书](domain/ussl/operate/revoke)
+    * [上传证书](domain/ussl/operate/upload)
 * [产品价格](domain/ussl/price)
 * 证书部署
     * [Nginx部署](domain/ussl/install/nginx)
