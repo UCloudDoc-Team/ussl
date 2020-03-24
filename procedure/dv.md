@@ -29,7 +29,7 @@
 
 ![](/images/procedure/待补全信息.png)
 
-填写内容参见[补全信息](/domain/ussl/operate/complete)介绍。
+填写内容参见[补全信息](ussl/operate/complete)介绍。
 
 ## Step4：验证信息
 
@@ -93,8 +93,8 @@ mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
 
 等待大概10分钟的时间，然后刷新控制台，看到状态变为“已颁发”，操作中出现【下载】按钮后，即可下载证书使用。
 
-DV证书验证中出现问题，可以通过[工具自查](/domain/ussl/faq/dv)原因。
+DV证书验证中出现问题，可以通过[工具自查](ussl/faq/dv)原因。
 
 ## Step6：下载证书&部署
 
-在控制台中下载证书后就可以在自己的服务器中部署证书了，部署证书可参考[帮助文档](/domain/ussl/install)。
+在控制台中下载证书后就可以在自己的服务器中部署证书了，部署证书可参考[帮助文档](ussl/install)。

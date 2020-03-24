@@ -14,7 +14,7 @@ Symantec和GeoTrust都支持企业型的SSL证书购买。
 
 ![](/images/ovev.png)
 
-根据需要选择合适的证书，如何选择可参见[](/domain/ussl/process)
+根据需要选择合适的证书，如何选择可参见[](ussl/process)
 
 ## Step2：补全信息
 
@@ -22,7 +22,7 @@ Symantec和GeoTrust都支持企业型的SSL证书购买。
 
 ![](/images/procedure/ov补全.png)
 
-填写内容参见[补全信息](/domain/ussl/operate/complete)介绍。
+填写内容参见[补全信息](ussl/operate/complete)介绍。
 
 ## Step3：下载确认函
 
