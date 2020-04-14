@@ -50,7 +50,7 @@ ssl\_certificate
 
 ssl\_certificate\_key
 
-私钥文件server.pem
+私钥文件server.key
 
 -----
 
