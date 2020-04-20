@@ -6,7 +6,7 @@
 
 登录：<https://console.ucloud.cn/ussl/ussl>
 
-查看订单后，操作：证书下载，需要从此处[格式转换工具](https://myssl.com/punycode.html)转换为JKS格式的证书
+查看订单后，操作：证书下载，需要从此处[格式转换工具](https://myssl.com/cert_convert.html)转换为JKS格式的证书
 
 JKS格式证书解压缩后看到如图的文件夹
 
