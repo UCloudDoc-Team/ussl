@@ -6,9 +6,9 @@
 
 首先登录SSL控制台：<https://console.ucloud.cn/ussl/ussl。然后下载证书>
 
-证书格式：pem for nginx
+证书格式：pem for nginx（证书下载完打开Nginx文件夹）
 
-解压后会获得两个文件：cer后缀的是证书公钥(此文件可以改名为server.pem)，key后缀的是私钥(可以改名为server.key)
+解压后会获得两个文件：pem后缀的是证书公钥+ca证书文件(例如：server.pem)，key后缀的是私钥文件(例如：server.key)
 
 **二、 在nginx里部署证书及优化配置ssl**
 
@@ -18,7 +18,7 @@
             listen       443;(ps:nginx1.15及以上的版本要修改为listen 443 ssl；)
             server_name  www.trustasia.com #你们的域名，如www.abc.com;
             ssl                  on;
-            ssl_certificate      /xxx/xxx/server.pem; #根据实际的路径和文件名配置
+            ssl_certificate_pem      /xxx/xxx/server.pem; #根据实际的路径和文件名配置
             ssl_certificate_key   /xxx/xxx/server.key; #根据实际的路径和文件名配置
             ssl_session_timeout  5m;
             ssl_protocols TLSv1 TLSv1.1 TLSv1.2; #按照这个协议配
