@@ -1,7 +1,7 @@
 # 概览
 
 * 快速上手
-    * [企业型(OV)和增强型(EV)证书.](/ussl/procedure/ovev)
+    * [企业型(OV)和增强型(EV)证书](/ussl/procedure/ovev)
     * [域名型(DV)](/ussl/procedure/dv)
 * 产品简介
     * [产品概述](/ussl/concepts/overview)
