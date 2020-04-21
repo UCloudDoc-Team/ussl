@@ -45,7 +45,6 @@
     * [证书申请失败原因排查](/ussl/faq/fail)
     * [证书格式转换](/ussl/faq/certificateconvert)
     * [如何验证域名所有权](/ussl/faq/domain)
-    * [证书退费说明](/ussl/faq/tuifei)
     * [证书的颁发时间说明](/ussl/faq/time)
     * [SSL证书重颁发声明](/ussl/faq/regrant)
     * [https字样并非呈现绿色](/ussl/faq/green)
