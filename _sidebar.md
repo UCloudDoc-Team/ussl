@@ -21,7 +21,7 @@
         * [GeoTrust企业型通配符SSL证书](/ussl/process/geotrust/ovtong)
         * [GeoTrust企业型SSL证书](/ussl/process/geotrust/ov)
     * [TrustAsia域名型证书](/ussl/process/trustasia)
-* 操作指南
+* 申请流程
     * [购买证书](/ussl/operate/buy)
     * [补全信息](/ussl/operate/complete)
     * [验证身份](/ussl/operate/fill)
