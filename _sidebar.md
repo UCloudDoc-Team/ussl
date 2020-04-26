@@ -44,6 +44,7 @@
     * [证书吊销流程和注意点](/ussl/faq/jiance)
     * [证书申请失败原因排查](/ussl/faq/fail)
     * [证书格式转换](/ussl/faq/certificateconvert)
+    * [证书申请中文域名](/ussl/faq/Chinese)
     * [如何验证域名所有权](/ussl/faq/domain)
     * [证书的颁发时间说明](/ussl/faq/time)
     * [证书退费说明](/ussl/faq/tuifei)
