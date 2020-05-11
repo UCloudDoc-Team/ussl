@@ -38,8 +38,8 @@
 
 | 产品名称                                             | 年限 | 价格（元）  |
 | ------------------------------------------------ | -- | ------ |
-| [域名型DV证书](ussl/process/trustasia)        | 1  | 1900   |
-| [域名型DV通配符证书](ussl/process/trustasia)     | 1  | 1990   |
+| [域名型DV证书-免费证书](ussl/process/trustasia)        | 1  | 0   |
+| [域名型DV通配符证书](ussl/process/trustasia)     | 1  | 1999   |
 | [域名型DV多域名证书](ussl/process/trustasia)     | 1  | 4900   |
 | [企业型OV单域名证书](ussl/process/trustasia)     | 1  | 4500   |
 | [企业型OV单域名证书](ussl/process/trustasia)     | 2  | 8100   |
