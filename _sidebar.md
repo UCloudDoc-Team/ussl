@@ -10,12 +10,12 @@
 * 如何选择SSL证书
     * [免费和收费证书的区别](/ussl/process/difference)
     * [证书品牌和证书类型](/ussl/process/brand)
-    * 赛门铁克SSL证书
-        * [Digcert增强型EV-SSL证书专业版](/ussl/process/symantec/evpro)
-        * [Digcert增强型EV-SSL证书](/ussl/process/symantec/ev)
-        * [Digcert企业型通配符SSL证书](/ussl/process/symantec/ov)
-        * Digcert企业型SSL证书专业版](/ussl/process/symantec/ovpro)
-        * [Digcert企业型SSL证书](/ussl/process/symantec/ov2)
+    * Digicert SSL证书
+        * [Digicert增强型EV-SSL证书专业版](/ussl/process/symantec/evpro)
+        * [Digicert增强型EV-SSL证书](/ussl/process/symantec/ev)
+        * [Digicert企业型通配符SSL证书](/ussl/process/symantec/ov)
+        * [Digicert企业型SSL证书专业版](/ussl/process/symantec/ovpro)
+        * [Digicert企业型SSL证书](/ussl/process/symantec/ov2)
     * GeoTrust证书
         * [GeoTrust增强型EV-SSL证书](/ussl/process/geotrust/ev)
         * [GeoTrust企业型通配符SSL证书](/ussl/process/geotrust/ovtong)
