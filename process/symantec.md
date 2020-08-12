@@ -1,5 +1,5 @@
 
 
-# 赛门铁克SSL证书
+# Digcert(原Symantec，已更名)SSL证书
 
 
