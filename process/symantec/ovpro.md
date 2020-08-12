@@ -1,8 +1,8 @@
 
 
-# Symantec企业型SSL证书专业版
+# Digcert企业型SSL证书专业版
 
-Symantec企业型SSL证书专业版（Symantec Secure Site Pro SSL Certificates）
+Digcert企业型SSL证书专业版（Digcert Secure Site Pro SSL Certificates）
 提供了真正128位至256位加密来保障您网站数据传输的安全，完整的企业真实身份和域名所有权审核，
 互联网上受认可的信任标记 Norton Secured Seal（诺顿安全认证签章），
 漏洞评估服务以及网站恶意软件扫描，可以帮您采取措施防御关键的网站漏洞。
