@@ -30,7 +30,7 @@ SSL证书保护网站时，我们免费包含了针对公共网页的每日恶�
 
 **Seal-in-Search**
 
-客户在线浏览时，他们通常会发现长长的网站列表，各网站为争取业务而相互竞争。Digicert Seal-in-Search 是 Symantec
+客户在线浏览时，他们通常会发现长长的网站列表，各网站为争取业务而相互竞争。Digicert Seal-in-Search 是 Digicert
 SSL 证书 的一项功能，可将诺顿安全认证签章放置在搜索结果中您链接的旁边，证明您的网站为Digicert所信任。
 
 **WebTrust国际安全审计认证**
