@@ -10,7 +10,7 @@ em>电话审核</wrap>的方式
 
 ## Step1：购买证书
 
-Digcert和GeoTrust都支持企业型的SSL证书购买。
+Digcert（原Symantec，已更名）)和GeoTrust都支持企业型的SSL证书购买。
 
 ![](/images/ovev.png)
 
