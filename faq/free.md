@@ -23,7 +23,7 @@
 
 **方法三：手动解析**
 
-nslookup -q=TXT _域名（或_dnsauth.y域名，已实际解析地址为准）
+nslookup -q=TXT _域名（或_dnsauth.域名，已实际解析地址为准）
 
 ![](/images/faq/手动解析.png)
 
