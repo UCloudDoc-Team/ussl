@@ -29,7 +29,7 @@
 
 ![](/images/operate/添加记录.png)
 
-<WRAP left round box 100%>
+
 
 主机记录就是域名前缀，常见用法有：
 
@@ -43,7 +43,6 @@ mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
 
 手机网站： 如：m.ucloud.cn，填写m。
 
-</WRAP>
 
 ### 文件上传
 
