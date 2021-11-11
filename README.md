@@ -1,8 +1,7 @@
 # 概览
 
 * 快速上手
-    * [企业型(OV)和增强型(EV)证书](/ussl/procedure/ovev)
-    * [域名型(DV)](/ussl/procedure/dv)
+    * [SSL证书新手入门](/ussl/procedure/ovev)
 * 产品简介
     * [产品概述](/ussl/concepts/overview)
     * [为App部署SSL证书应对苹果ATS限制](/ussl/concepts/apple)
