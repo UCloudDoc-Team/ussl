@@ -19,6 +19,7 @@
         * [GeoTrust企业型通配符SSL证书](/ussl/process/geotrust/ovtong)
         * [GeoTrust企业型SSL证书](/ussl/process/geotrust/ov)
     * [TrustAsia域名型证书](/ussl/process/trustasia)
+    * [SZCA证书](/ussl/process/SZCA)
 * 操作指南
     * [快速申请指南](/ussl/operate/simple)
     * [购买证书](/ussl/operate/buy)
