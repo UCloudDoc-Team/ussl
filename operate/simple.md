@@ -10,7 +10,7 @@ DV类型证书：20分钟下发
 OV、EV证书：5-7天
 
 
-![](/images/operate/申请证书.png)
+![](/images/lct.png)
 
 
 **2、证书注销流程指导：**
@@ -18,4 +18,4 @@ OV、EV证书：5-7天
 备注：针对已颁发证书，吊销流程如购买流程
 
 
-![](/images/operate/吊销证书.png)
+![](/images/operate/zsdx.png)
