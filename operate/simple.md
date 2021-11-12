@@ -7,7 +7,7 @@
 
 DV类型证书：20分钟下发
 
-OV、EV证书：5-7天
+OV、EV证书：3-7天
 
 
 ![](/images/lct.png)
