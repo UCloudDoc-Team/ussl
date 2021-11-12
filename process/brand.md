@@ -45,4 +45,4 @@ OV证书不仅具备加密传输和身份验证的完整功能，价格也比较
 
 # SZCA证书对比
 
-![](/images/SZCA.png)
+![](/images/szca.png)
