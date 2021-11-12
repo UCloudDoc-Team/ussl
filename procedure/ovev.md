@@ -39,7 +39,7 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 购买后会看到生成了一条没有任何信息的待补全信息的证书，点击【补全信息】填写内容提交。
 
-![](/images/procedure/bqxx.png)
+![](/images/bqxx.png)
 
 
 详细内容参见[补全信息](ussl/operate/complete)介绍。
