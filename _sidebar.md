@@ -27,6 +27,7 @@
     * [证书退费](/ussl/operate/refund)
     * [吊销证书](/ussl/operate/revoke)
     * [上传证书](/ussl/operate/upload)
+    * [个人中心](/ussl/operate/grzx)
 * [产品价格](/ussl/price)
 * 证书部署
     * [Nginx部署](/ussl/install/nginx)
