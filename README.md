@@ -44,9 +44,11 @@
     * [证书吊销流程和注意点](/ussl/faq/jiance)
     * [证书申请失败原因排查](/ussl/faq/fail)
     * [证书格式转换](/ussl/faq/certificateconvert)
+    * [证书申请中文域名](/ussl/faq/Chinese)
+    * [证书申请时的验证限制](/ussl/faq/zssq)
     * [如何验证域名所有权](/ussl/faq/domain)
-    * [证书退费说明](/ussl/faq/tuifei)
     * [证书的颁发时间说明](/ussl/faq/time)
+    * [证书退费说明](/ussl/faq/tuifei)
     * [SSL证书重颁发声明](/ussl/faq/regrant)
     * [https字样并非呈现绿色](/ussl/faq/green)
     * [DV证书自主检测工具手册](/ussl/faq/dv)
@@ -55,4 +57,4 @@
     * [证书格式的区别](/ussl/faq/certificate)
     * [为App部署SSL证书应对苹果ATS限制](/ussl/faq/apple)
     * [苹果公司宣布Safari浏览器对SSL证书有效期的要求说明](/ussl/faq/Safari)
- 
+
