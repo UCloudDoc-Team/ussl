@@ -1,17 +1,11 @@
 
 
-# 域名型(DV)
+# 域名型(DV)证书购买签发流程
 
-本篇内容主要介绍域名型(DV)证书的部署及上线的全线流程，帮您快速了解并掌握USSL证书的相关操作。
-
-![](/images/procedure/lct.png)
+    流程总结： 新购证书->补全信息->域名验证（DNS/文件验证）->验证通过->签发证书
 
 
-
-
-## Step1：购买证书
-
-**购买入口**
+## 一：新购证书
 
 ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
@@ -19,21 +13,11 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 ![](/images/rk2.png)
 
-**证书推荐**
-
-为便于您快速部署，针对性提供证书快速购买套餐。
-
-![](/images/zstj.png)
-
-**选择证书**
-
-您可根据需求自定义购买证书
-
 ![](/images/xzzs.png)
 
 详细内容参见[购买证书](/ussl/operate/buy)介绍。
 
-## Step2：申请证书
+## 二：补全信息
 
 证书购买成功后，需完成相关信息的提交。
 
@@ -46,15 +30,8 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 详细内容参见[补全信息](ussl/operate/complete)介绍。
 
-## Step3：域名所有权验证
+## 三：域名所有权验证
 
-购买后会看到生成了一条没有任何信息的待补全信息的证书，点击【补全信息】填写内容提交。
-
-![](/images/procedure/待补全信息.png)
-
-填写内容参见[补全信息](ussl/operate/complete)介绍。
-
-## Step4：证书颁发
 
 <wrap em>注意：请尽快于 24 小时内手动设置 DNS 解析记录，验证通过后 20
 分钟内即可签发证书，超时将导致申请失败。</wrap>
@@ -111,6 +88,8 @@ mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
 <https://www.ucloud.cn/.well-known/pki-validation/fileauth.txt获取到文件内容（authValue）201704181133503c8morpl4g9gk5naytt4dmfwpw50pokoie4d4vjoy259gmbfai则为验证成功>
 
 <wrap em>文件内容请根据系统实际分配的进行保存。</wrap>
+
+## Step4：证书颁发
 
 ## Step5：等待10分钟左右
 
