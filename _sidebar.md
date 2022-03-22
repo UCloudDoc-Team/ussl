@@ -1,7 +1,5 @@
 
 * [概览](/ussl/README)
-* 快速上手
-    * [SSL证书新手入门](/ussl/procedure/ovev)
 * 产品简介
     * [产品概述](/ussl/concepts/overview)
 * 如何选择SSL证书
@@ -20,6 +18,8 @@
     * [TrustAsia域名型证书](/ussl/process/trustasia)
     * [CFCA证书](/ussl/process/CFCA)
     * [SZCA证书](/ussl/process/SZCA)
+* 快速上手
+    * [SSL证书新手入门](/ussl/procedure/ovev)
 * 操作指南
     * [快速申请指南](/ussl/operate/simple)
     * [购买证书](/ussl/operate/buy)
