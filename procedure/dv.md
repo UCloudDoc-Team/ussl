@@ -25,22 +25,19 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 购买后会看到生成了一条没有任何信息的待补全信息的证书，点击【补全信息】填写内容提交。
 
-![](/images/procedure/bqxx.png)
-
+![](/images/procedure/待补全信息.png)
 
 详细内容参见[补全信息](ussl/operate/complete)介绍。
 
 ## 三：域名所有权验证
 
+### 方式一：DNS解析验证
 
-<wrap em>注意：请尽快于 24 小时内手动设置 DNS 解析记录，验证通过后 20
-分钟内即可签发证书，超时将导致申请失败。</wrap>
 
-补全后必须进行验证才能收到证书。补全信息中选择的验证方式不同，操作就不一样。首先点击【验证】
+
 
 ![](/images/procedure/验证按钮.png)
 
-### DNS验证方式
 
 ![](/images/operate/dns验证.png)
 
@@ -73,9 +70,9 @@ mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
 
 手机网站： 如：m.ucloud.cn，填写m。
 
-</WRAP>
 
-### 文件上传
+
+### 方式二：文件验证（与服务器本身安全配置相关，容易出现验证不匹配的情况）
 
 文件验证需要注意，进行验证访问的链接地址是
 <https://domain+/.well-known/pki-validation/+fileauth.txt> 或者
