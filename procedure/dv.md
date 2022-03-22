@@ -33,42 +33,22 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 ### 方式一：DNS解析验证
 
-
+**点击验证按钮**
 
 
 ![](/images/procedure/验证按钮.png)
 
+**获取验证信息**
 
 ![](/images/operate/dns验证.png)
 
-**验证类型**：DNS
+**填写验证信息**
 
-**绑定的域名**：显示补全信息时填写的域名
+在域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
 
-**主域名**：假如添加的域名是abc.test.ucloud.cn,主域名是ucloud.cn，也就是一级域名，格式为：一级域名.顶级域名
 
-**TXT主机记录值**：根据域名返回的唯一的txt主机记录值，请到您的DNS服务商处尽快添加txt记录。
 
-<wrap em>请尽快于 24 小时内手动设置 DNS 解析记录，验证通过后 20
-分钟内即可签发证书，超时将导致申请失败。</wrap>
 
-在DNS服务商比如DNSPOD添加主机记录
-
-![](/images/operate/添加记录.png)
-
-<WRAP left round box 100%>
-
-主机记录就是域名前缀，常见用法有：
-
-@： 直接解析主域名 www.ucloud.cn 或者 ucloud.cn。
-
-\*： 泛解析，匹配其他所有域名 \*.ucloud.cn。
-
-mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
-
-二级域名： 如：abc.ucloud.cn，填写abc。
-
-手机网站： 如：m.ucloud.cn，填写m。
 
 
 
