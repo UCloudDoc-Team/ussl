@@ -19,16 +19,9 @@
     * [CFCA证书](/ussl/process/CFCA)
     * [SZCA证书](/ussl/process/SZCA)
 * 快速上手
-    * [SSL证书新手入门](/ussl/procedure/ovev)
-* 操作指南
     * [快速申请指南](/ussl/operate/simple)
-    * [购买证书](/ussl/operate/buy)
-    * [补全信息](/ussl/operate/complete)
-    * [验证身份](/ussl/operate/fill)
-    * [证书退费](/ussl/operate/refund)
-    * [吊销证书](/ussl/operate/revoke)
-    * [上传证书](/ussl/operate/upload)
-    * [个人中心](/ussl/operate/grzx)
+    * [DV证书申请](/ussl/procedure/dv)
+    * [OV/EV证书申请](/ussl/procedure/ovev)
 * [产品价格](/ussl/price)
 * 证书部署
     * [Nginx部署](/ussl/install/nginx)
