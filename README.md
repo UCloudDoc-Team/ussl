@@ -23,6 +23,15 @@
     * [申请流程指南](/ussl/operate/simple)
     * [DV类型申请](/ussl/procedure/dv)
     * [OV/EV类型申请](/ussl/procedure/ovev)
+* [操作指南](/ussl/operate)
+    * [购买证书](/ussl/operate/buy)
+    * [补全信息](/ussl/operate/complete)
+    * [验证身份](/ussl/operate/fill)
+    * [购买证书](/ussl/operate/buy)
+    * [吊销证书](/ussl/operate/revoke
+    * [证书退费](/ussl/operate/refund)
+    * [个人中心](/ussl/operate/grzx)
+    * [证书托管](/ussl/operate/upload)
 * [产品价格](/ussl/price)
 * 证书部署
     * [Nginx部署](/ussl/install/nginx)
