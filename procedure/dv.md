@@ -27,37 +27,37 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 ## Step3：域名所有权验证
 
-### 验证方式一：DNS解析验证
+### 域名验证方式一：DNS解析验证
 
-**1、点击验证按钮**
+**1）、点击验证按钮**
 
 
 ![](/images/procedure/验证按钮.png)
 
-**2、获取验证信息**
+**2）、获取验证信息**
 
 ![](/images/operate/dns验证.png)
 
-**3、填写验证信息**
+**3）、填写验证信息**
 
-在域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
+    在域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
 
 ![](/images/operate/DNS解析配置.png)
 
-**4、验证解析**
+**4）、解析验证**
 
-    方法一：控制台自动化工具检测，点击验证按钮，显示匹配则解析添加成功**
+    方法一：控制台自动化工具检测，点击验证按钮，显示匹配则解析添加成功
    
 ![](/images/operate/解析验证.png)
     
-    方法二：本地客户端shell命令验证，nslookup -q=TXT __dnsauth.域名**
+    方法二：本地客户端shell命令验证，nslookup -q=TXT __dnsauth.域名
     
 ![](/images/operate/手动解析.png)
    
 
 
 
-### 验证方式二：文件验证（与服务器本身安全配置相关，容易出现验证不匹配的情况）
+### 域名验证方式二：文件验证（与服务器本身安全配置相关，容易出现验证不匹配的情况）
 
 
 
@@ -70,9 +70,9 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 **举例：** 
 
-domain为 www.ucloud.cn; authKey为fileauth.txt，访问：<https://www.ucloud.cn/.well-known/pki-validation/fileauth.txt>
+    domain为 www.ucloud.cn; authKey为fileauth.txt，访问：<https://www.ucloud.cn/.well-known/pki-validation/fileauth.txt>
 
-获取到文件内容（authValue）201704181133503c8morpl4g9gk5naytt4dmfwpw50pokoie4d4vjoy259gmbfai则为验证成功
+    获取到文件内容（authValue）201704181133503c8morpl4g9gk5naytt4dmfwpw50pokoie4d4vjoy259gmbfai则为验证成功
 
 
 
