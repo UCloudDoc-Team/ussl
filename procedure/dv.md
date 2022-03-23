@@ -46,11 +46,11 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 **4、验证解析**
 
-   方法一：控制台自动化工具检测，点击验证按钮，现实匹配则解析添加成功
+**方法一：控制台自动化工具检测，点击验证按钮，现实匹配则解析添加成功**
    
 ![](/images/operate/解析验证.png)
     
-    方法二：本地客户端shell命令验证，nslookup -q=TXT __dnsauth.域名
+**方法二：本地客户端shell命令验证，nslookup -q=TXT __dnsauth.域名**
     
 ![](/images/operate/手动解析.png)
    
