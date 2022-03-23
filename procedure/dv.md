@@ -57,21 +57,20 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 
 
-
-
 ### 方式二：文件验证（与服务器本身安全配置相关，容易出现验证不匹配的情况）
 
-文件验证需要注意，进行验证访问的链接地址是
-<https://domain+/.well-known/pki-validation/+fileauth.txt> 或者
-<http://domain+/.well-known/pki-validation/+fileauth.txt>
-文件内容结尾不能有回车或换行符。
+1、根据验证路径创建authKey为fileauth.txt，并输入txt值，文件内容结尾不能有回车或换行符
 
-<wrap em>文件验证不支持任何形式的跳转，需要直接响应200状态码和文件内容。</wrap>
+2、保证文件fileauth.txt路径与验证一致，可自行补齐
 
-举例： domain为 www.ucloud.cn; authKey为fileauth.txt，那么需要访问：
-<https://www.ucloud.cn/.well-known/pki-validation/fileauth.txt获取到文件内容（authValue）201704181133503c8morpl4g9gk5naytt4dmfwpw50pokoie4d4vjoy259gmbfai则为验证成功>
+3、纪录值验证，浏览器访问<https://domain+/.well-known/pki-validation/+fileauth.txt> 或者<http://domain+/.well-known/pki-validation/+fileauth.txt>
 
-<wrap em>文件内容请根据系统实际分配的进行保存。</wrap>
+
+**举例：** 
+domain为 www.ucloud.cn; authKey为fileauth.txt，访问：<https://www.ucloud.cn/.well-known/pki-validation/fileauth.txt
+获取到文件内容（authValue）201704181133503c8morpl4g9gk5naytt4dmfwpw50pokoie4d4vjoy259gmbfai则为验证成功>
+
+
 
 ## Step4：证书颁发
 
@@ -84,3 +83,4 @@ DV证书验证中出现问题，可以通过[工具自查](ussl/faq/dv)原因。
 ## Step6：下载证书&部署
 
 在控制台中下载证书后就可以在自己的服务器中部署证书了，部署证书可参考[帮助文档](ussl/install)。
+
