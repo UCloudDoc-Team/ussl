@@ -1,15 +1,10 @@
 
+# 企业型(OV)/增强型(EV)证书购买签发流程
+    
+    总结：购买证书->补全信息->上传公司盖章确认函->后台公司信息审核->域名验证（DNS/文件验证）->签发证书
+    
 
-# SSL证书新手入门
-
-本篇内容主要介绍证书的部署及上线的全线流程，帮您快速了解并掌握USSL证书的相关操作。
-
-![](/images/lct.png)
-
-
-## Step1：购买证书
-
-**购买入口**
+## Step1：新购证书
 
 ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
@@ -17,32 +12,19 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 ![](/images/rk2.png)
 
-**证书推荐**
-
-为便于您快速部署，针对性提供证书快速购买套餐。
-
-![](/images/zstj.png)
-
-**选择证书**
-
-您可根据需求自定义购买证书
-
 ![](/images/xzzs.png)
 
 详细内容参见[购买证书](/ussl/operate/buy)介绍。
 
-## Step2：申请证书
+## Step2：补全信息
 
-证书购买成功后，需完成相关信息的提交。
+   购买后会看到生成了一条没有任何信息的待补全信息的证书，点击【补全信息】填写内容提交。
 
-### 基础信息
-
-购买后会看到生成了一条没有任何信息的待补全信息的证书，点击【补全信息】填写内容提交。
-
-![](/images/bqxx.png)
-
+![](/images/procedure/待补全信息.png)
 
 详细内容参见[补全信息](ussl/operate/complete)介绍。
+
+## Step3：上传公司盖章确认函
 
 ### 附件信息（OV、EV证书）
 
@@ -64,7 +46,7 @@ OV、EV证书完成基础信息填写后，需完善附件信息上传，该步�
 
 ![](/images/sqzl2.png)
 
-## Step3：人工审核（OV、EV证书）
+## Step4：公司信息人工审核（后台，客户无需操作，只需等待）
 
 申请提交后CA中心将在3至7个工作日内完成审核，不同CA中心审核周期会有所区别。审核期间我们将电话、邮件联系申请人，请届时配合我们的审核。审核通过后我们会短信、邮件通知申请人。
 
@@ -86,22 +68,58 @@ OV、EV证书完成基础信息填写后，需完善附件信息上传，该步�
 
 
 
-## Step4：域名验证
+## Step5：域名所有权验证
 
-完成审核资料提交后，需要验证您的域名所有权，验证类型主要有以下两种
+### 域名验证方式一：DNS解析验证
 
-**文件验证**
-
-![](/images/syq1.png)
-
-**DNS验证**
-
-![](/images/syq2.png)
-
-详细内容参见[验证身份](ussl/operate/fill)介绍。
+**1）、点击验证按钮**
 
 
-## Step5：证书颁发
+![](/images/procedure/验证按钮.png)
+
+**2）、获取验证信息**
+
+![](/images/operate/dns验证.png)
+
+**3）、填写验证信息**
+
+    在域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
+
+![](/images/operate/DNS解析配置.png)
+
+**4）、解析验证**
+
+    方法一：控制台自动化工具检测，点击验证按钮，显示匹配则解析添加成功
+   
+![](/images/operate/解析验证.png)
+    
+    方法二：本地客户端shell命令验证，nslookup -q=TXT __dnsauth.域名
+    
+![](/images/operate/手动解析.png)
+   
+
+
+
+### 域名验证方式二：文件验证（与服务器本身安全配置相关，容易出现验证不匹配的情况）
+
+
+
+1、根据验证路径创建文本文件fileauth.txt，并输入txt值，文件内容结尾不能有回车或换行符
+
+2、保证文件fileauth.txt路径与验证一致，可自行补齐
+
+
+3、纪录值验证，浏览器访问<https://domain+/.well-known/pki-validation/+fileauth.txt> 或者<http://domain+/.well-known/pki-validation/+fileauth.txt>；并获取到对应的txt值，则表示文件解析添加成功
+
+
+**举例：** 
+
+domain为 www.ucloud.cn; authKey为fileauth.txt，访问：<https://www.ucloud.cn/.well-known/pki-validation/fileauth.txt>
+
+获取到文件内容（authValue）201704181133503c8morpl4g9gk5naytt4dmfwpw50pokoie4d4vjoy259gmbfai则为验证成功
+
+
+## Step6：证书颁发
 
 完成以上步骤，恭喜您证书申请成功，您可下载对应证书文件部署到服务器。
 
