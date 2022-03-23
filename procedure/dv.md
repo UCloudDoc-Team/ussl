@@ -59,11 +59,13 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 ### 方式二：文件验证（与服务器本身安全配置相关，容易出现验证不匹配的情况）
 
-1、根据验证路径创建authKey为fileauth.txt，并输入txt值，文件内容结尾不能有回车或换行符
 
-2、保证文件fileauth.txt路径与验证一致，可自行补齐
 
-3、纪录值验证，浏览器访问<https://domain+/.well-known/pki-validation/+fileauth.txt> 或者<http://domain+/.well-known/pki-validation/+fileauth.txt>；并获取到对应的txt值，则表示文件解析添加成功
+    1、根据验证路径创建authKey为fileauth.txt，并输入txt值，文件内容结尾不能有回车或换行符
+
+    2、保证文件fileauth.txt路径与验证一致，可自行补齐
+
+    3、纪录值验证，浏览器访问<https://domain+/.well-known/pki-validation/+fileauth.txt> 或者<http://domain+/.well-known/pki-validation/+fileauth.txt>；并获取到对应的txt值，则表示文件解析添加成功
 
 
 **举例：** 
@@ -75,9 +77,7 @@ domain为 www.ucloud.cn; authKey为fileauth.txt，访问：<https://www.ucloud.c
 
 
 
-## Step4：证书颁发
-
-## Step5：等待10分钟左右
+## Step4：证书签发
 
 等待大概10分钟的时间，然后刷新控制台，看到状态变为“已颁发”，操作中出现【下载】按钮后，即可下载证书使用。
 
