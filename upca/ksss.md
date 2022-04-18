@@ -5,10 +5,10 @@
 ![](/images/UPCA/使用流程图.png)
 **1、进入UPCA**
 
-控制台入口：
+进入USSL：
 ![](/images/UPCA/jrupca1.png)
 
-控制台入口：
+选择UPCA选项：
 ![](/images/UPCA/jrupca2.png)   
 
 
