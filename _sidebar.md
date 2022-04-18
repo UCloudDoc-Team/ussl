@@ -33,11 +33,11 @@
     * [证书托管](/ussl/operate/upload)
 * [产品价格](/ussl/price)
 * UPCA私有证书
-    * [快速上手](/ussl/install/nginx)
-    * [概述](/ussl/install/tomcat)
-    * [信息概览](/ussl/install/iis)
-    * [CA管理](/ussl/install/apache)
-    * [证书管理](/ussl/install/jboss)
+    * [快速上手](/ussl/upca/ksss)
+    * [概述](/ussl/upca/gs)
+    * [信息概览](/ussl/upca/xxgl)
+    * [CA管理](/ussl/upca/cagl)
+    * [证书管理](/ussl/upca/zsgl)
 * 证书部署
     * [Nginx部署](/ussl/install/nginx)
     * [Tomcat8.5/Tomcat9的证书部署](/ussl/install/tomcat)
