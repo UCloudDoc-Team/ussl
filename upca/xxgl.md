@@ -1,55 +1,13 @@
-# 证书快速上手
+# 信息概览
+
+信息概览页，可直观查看全局CA、证书等相关情况并进行管理操作
+![](/images/UPCA/xxgl1.png)
 
 
-![](/images/UPCA/使用流程图.png)
+**数据统计**：统计账号下的CA、子CA、证书、异常证书（过期、注销）状态证书总数。
 
-### 一、进入UPCA
+**CA信息**：展示最近创建5条CA信息，CA目录下课折叠展示其下子CA。可进行操作、管理。
 
-**进入USSL**
-![](/images/UPCA/jrupca1.png)
+**证书信息**：展示最近创建的5条证书信息，可进行操作、管理。
 
-**选择UPCA选项**
-![](/images/UPCA/jrupca2.png)   
-
-### 二、创建根CA/子CA
-
-**1、进入CA管理页创建证书**
-![](/images/UPCA/cj1.png)  
-
-**2、选择根CA类型**
-
-创建根CA的同时会默认创建一个子CA
-![](/images/UPCA/cj2.png)  
-
-**3、支付**
-![](/images/UPCA/cj3.png)  
-
-
-
-### 三、完善根CA
-
-**1、列表页对应根CA位置，点击”完善信息“**
-![](/images/UPCA/cj4.png)  
-
-**2、填写根CA相关信息**
-![](/images/UPCA/cj5.png)  
-
-
-### 四、完善子CA
-
-**1、列表页对应子CA位置，点击”完善信息“**
-![](/images/UPCA/cj6.png)  
-
-**2、填写子CA相关信息**
-![](/images/UPCA/cj7.png)  
-
-
-
-### 五、创建证书
-
-**1、列表页对应子CA位置，点击”创建证书“**
-![](/images/UPCA/cj9.png)  
-
-**2、填写证书相关信息**
-![](/images/UPCA/cj8.png)  
 

@@ -50,7 +50,7 @@ UCloud私有证书（UCloud Private Certificate Authority，upca），企业内�
 
 ## 跨平台生态结合
 
-![](/images/UPCA/gs4.png)
+![](/images/UPCA/gs3.png)
 
 
 **API接入**：对外开放API，产品模块化，支持第三方开发者自行定制。
