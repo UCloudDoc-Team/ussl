@@ -1,25 +1,55 @@
 # 证书快速上手
 
-### 一、UPCA私有证书使用流程：
 
 ![](/images/UPCA/使用流程图.png)
-**1、进入UPCA**
 
-进入USSL：
+### 一、进入UPCA
+
+**进入USSL**
 ![](/images/UPCA/jrupca1.png)
 
-选择UPCA选项：
+**选择UPCA选项**
 ![](/images/UPCA/jrupca2.png)   
 
+### 二、创建根CA/子CA
 
-### 二、证书申请流程
+**1、进入CA管理页创建证书**
+![](/images/UPCA/cj1.png)  
 
-![](/images/operate/申请证书.png)
+**2、选择根CA类型**
+
+创建根CA的同时会默认创建一个子CA
+![](/images/UPCA/cj2.png)  
+
+**3、支付**
+![](/images/UPCA/cj3.png)  
 
 
-### 三、证书注销流程
 
-备注：针对已颁发证书，吊销流程同购买流程，都需要验证
+### 三、完善根CA
+
+**列表页对应根CA位置，点击”完善信息“**
+![](/images/UPCA/cj4.png)  
+
+**填写根CA相关信息**
+![](/images/UPCA/cj5.png)  
 
 
-![](/images/operate/吊销证书.png)
+### 四、完善子CA
+
+**列表页对应子CA位置，点击”完善信息“**
+![](/images/UPCA/cj6.png)  
+
+**填写子CA相关信息**
+![](/images/UPCA/cj7.png)  
+
+
+
+### 五、创建证书
+
+**列表页对应子CA位置，点击”创建证书“**
+![](/images/UPCA/cj9.png)  
+
+**填写证书相关信息**
+![](/images/UPCA/cj8.png)  
+
