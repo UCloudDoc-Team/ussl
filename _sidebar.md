@@ -65,6 +65,7 @@
     * [证书格式的区别](/ussl/faq/certificate)
     * [为App部署SSL证书应对苹果ATS限制](/ussl/faq/apple)
     * [苹果公司宣布Safari浏览器对SSL证书有效期的要求说明](/ussl/faq/Safari)
+    * [多年期证书答疑](/ussl/faq/duonianq)
   
 
 
