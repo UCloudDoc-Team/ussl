@@ -26,7 +26,6 @@
     * [购买证书](/ussl/operate/buy)
     * [补全信息](/ussl/operate/complete)
     * [验证身份](/ussl/operate/fill)
-    * [购买证书](/ussl/operate/buy)
     * [吊销证书](/ussl/operate/revoke)
     * [证书退费](/ussl/operate/refund)
     * [个人中心](/ussl/operate/grzx)
