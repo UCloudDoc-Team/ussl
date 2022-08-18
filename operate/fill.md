@@ -12,15 +12,17 @@
 
 ### DNS验证
 
-![](/images/operate/dns验证.png)
+![](/images/operate/dnsyz.png)
 
 **验证类型**：DNS
 
+**记录类型**：CNAME
+
 **绑定的域名**：显示补全信息时填写的域名
 
-**主域名**：假如添加的域名是abc.test.ucloud.cn,主域名是ucloud.cn，也就是一级域名，格式为：一级域名.顶级域名
+**CNAME主机记录**：根据域名返回的唯一的CNAME主机记录。
 
-**TXT主机记录值**：根据域名返回的唯一的txt主机记录值，请到您的DNS服务商处尽快添加txt记录。
+**CNAME记录值**：根据域名返回的唯一的CNAME记录值，请到您的DNS服务商处尽快添加CNAME记录。
 
 <wrap em>请尽快于 24 小时内手动设置 DNS 解析记录，验证通过后 20
 分钟内即可签发证书，超时将导致申请失败。</wrap>
@@ -46,17 +48,16 @@ mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
 
 ### 文件上传
 
-文件验证需要注意，进行验证访问的链接地址是
-<https://domain+/.well-known/pki-validation/+fileauth.txt> 或者
-<http://domain+/.well-known/pki-validation/+fileauth.txt>
-文件内容结尾不能有回车或换行符。
+![](/images/operate/wjyz.png)
 
-<wrap em>文件验证不支持任何形式的跳转，需要直接响应200状态码和文件内容。</wrap>
+**1、创建文件**： 文件验证方式一般需要您的站点管理人员进行操作，先创建C5704CE6BB76F223420F371E8346A609.txt，并将验证的文件文件内容粘贴在文件中进行保存。
 
-举例： domain为 www.ucloud.cn; authKey为fileauth.txt，那么需要访问：
-<https://www.ucloud.cn/.well-known/pki-validation/fileauth.txt获取到文件内容（authValue）201704181133503c8morpl4g9gk5naytt4dmfwpw50pokoie4d4vjoy259gmbfai则为验证成功>
+**2、创建目录**： 在站点的根目录下创建.well-known/ pki-validation子目录。注意第一层目录是带点的隐藏目录，Windows下命令为：m".well-known"。将创建的文件放在该子目录中； 如果你的站点由于某种原因无法创建隐藏目录，选择其他DNS验证方式。
 
-<wrap em>文件内容请根据系统实际分配的进行保存。</wrap>
+**3、配置监测**
+（1）HTTPS配置检验链接：https://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt
+（2）HTTP配置检测链接：http://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt
+domain+为您的域名文件，内容结尾不能有回车或换行符。 文件验证不支持任何形式的跳转，需要直接响应200状态码和文件内容。
 
 ## OV / EV 类型证书
 
