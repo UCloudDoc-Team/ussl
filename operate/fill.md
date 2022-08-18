@@ -56,9 +56,9 @@ mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
 
 **3、配置监测**
 
-（1）HTTPS配置检验链接：https://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt
+<wrap em>（1）HTTPS配置检验链接：https://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt</wrap>
 
-（2）HTTP配置检测链接：http://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt
+<wrap em>（2）HTTP配置检测链接：http://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt</wrap>
 
 domain+为您的域名文件，内容结尾不能有回车或换行符。 文件验证不支持任何形式的跳转，需要直接响应200状态码和文件内容。
 
