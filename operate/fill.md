@@ -52,11 +52,14 @@ mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
 
 **1、创建文件**： 文件验证方式一般需要您的站点管理人员进行操作，先创建C5704CE6BB76F223420F371E8346A609.txt，并将验证的文件文件内容粘贴在文件中进行保存。
 
-**2、创建目录**： 在站点的根目录下创建.well-known/ pki-validation子目录。注意第一层目录是带点的隐藏目录，Windows下命令为：m".well-known"。将创建的文件放在该子目录中； 如果你的站点由于某种原因无法创建隐藏目录，选择其他DNS验证方式。
+**2、创建目录**： 在站点的根目录下创建.well-known/pki-validation子目录。注意第一层目录是带点的隐藏目录，Windows下命令为：m".well-known"。将创建的文件放在该子目录中； 如果你的站点由于某种原因无法创建隐藏目录，选择其他DNS验证方式。
 
 **3、配置监测**
+
 （1）HTTPS配置检验链接：https://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt
+
 （2）HTTP配置检测链接：http://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt
+
 domain+为您的域名文件，内容结尾不能有回车或换行符。 文件验证不支持任何形式的跳转，需要直接响应200状态码和文件内容。
 
 ## OV / EV 类型证书
