@@ -49,7 +49,7 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
    
 ![](/images/procedure/Cname解析验证按钮.png)
     
-    方法二：本地客户端shell命令验证，nslookup -q=CNAME 文件记录值.主域名
+    方法二：本地客户端shell命令验证，nslookup -q=CNAME 文件记录.主域名
     
 ![](/images/procedure/cname手动解析验证.png)
    
