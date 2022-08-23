@@ -27,10 +27,9 @@
 
 **方法三：手动解析**
 
-nslookup -q=TXT _域名（或_dnsauth.域名，已实际解析地址为准）
-
-![](/images/faq/手动解析.png)
-
+本地客户端shell命令验证，nslookup -q=CNAME 文件记录值.主域名
+    
+![](/images/procedure/cname手动解析验证.png)
 
 ## 3、控制台验证不匹配
 
