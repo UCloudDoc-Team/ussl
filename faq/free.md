@@ -27,7 +27,7 @@
 
 **方法三：手动解析**
 
-本地客户端shell命令验证，nslookup -q=CNAME 文件记录值.主域名
+本地客户端shell命令验证，nslookup -q=CNAME 记录值.主域名
     
 ![](/images/procedure/cname手动解析验证.png)
 
