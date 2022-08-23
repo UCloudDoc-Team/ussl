@@ -32,11 +32,11 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 **1）、点击验证按钮**
 
 
-![](/images/operate/验证按钮.png)
+![](/images/procedure/验证按钮.png)
 
 **2）、获取验证信息**
 
-![](/images/procedure/dns验证.png)
+![](/images/procedure/cname验证信息.png)
 
 **3）、填写验证信息**
 
