@@ -32,27 +32,27 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 **1）、点击验证按钮**
 
 
-![](/images/procedure/验证按钮.png)
+![](/images/operate/验证按钮.png)
 
 **2）、获取验证信息**
 
-![](/images/operate/dns验证.png)
+![](/images/procedure/dns验证.png)
 
 **3）、填写验证信息**
 
-    在域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
+    在UDNS域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
 
-![](/images/operate/DNS解析配置.png)
+![](/images/procedure/cname解析添加.png)
 
 **4）、解析验证**
 
     方法一：控制台自动化工具检测，点击验证按钮，显示匹配则解析添加成功
    
-![](/images/operate/解析验证.png)
+![](/images/procedure/Cname解析验证按钮.png)
     
-    方法二：本地客户端shell命令验证，nslookup -q=TXT __dnsauth.域名
+    方法二：本地客户端shell命令验证，nslookup -q=CNAME 文件记录值.主域名
     
-![](/images/operate/手动解析.png)
+![](/images/procedure/cname手动解析验证.png)
    
 
 
@@ -61,21 +61,19 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 
 
-1、根据验证路径创建文本文件fileauth.txt，并输入txt值，文件内容结尾不能有回车或换行符
+1、根据验证路径创建文本文件文件名称，并输入文件内容，文件内容结尾不能有回车或换行符
 
-2、保证文件fileauth.txt路径与验证一致，可自行补齐
+2、保证文件名称路径与验证一致，缺少可自行补齐
 
 
-3、纪录值验证，浏览器访问<https://domain+/.well-known/pki-validation/+fileauth.txt> 或者<http://domain+/.well-known/pki-validation/+fileauth.txt>；并获取到对应的txt值，则表示文件解析添加成功
+3、纪录值验证，浏览器访问<https://domain+/.well-known/pki-validation/+文件名称> 或者<http://domain+/.well-known/pki-validation/+文件名称>；并获取到对应的txt值，则表示文件解析添加成功
 
 
 **举例：** 
 
-domain为 www.ucloud.cn; authKey为fileauth.txt，访问：<https://www.ucloud.cn/.well-known/pki-validation/fileauth.txt>
+domain为 www.ucloud.cn; 访问：<https://www.ucloud.cn/.well-known/pki-validation/文件名称>获取到文件内容则为验证成功
 
-获取到文件内容（authValue）201704181133503c8morpl4g9gk5naytt4dmfwpw50pokoie4d4vjoy259gmbfai则为验证成功
-
-
+![](/images/procedure/文件解析验证.png)
 
 
 ## Step4：证书签发
