@@ -8,7 +8,7 @@
 
 证书格式：pem for nginx（证书下载完打开Nginx文件夹）
 
-解压后会获得两个文件：pem后缀的是证书公钥+ca证书文件(例如：server.pem)，key后缀的是私钥文件(例如：server.key)
+解压后会获得两个文件：pem后缀的是证书公钥+ca证书文件(例如：public.pem)，key后缀的是私钥文件(例如：private.key)
 
 **二、 在nginx里部署证书及优化配置ssl**
 
