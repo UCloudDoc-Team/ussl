@@ -49,17 +49,15 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 ![](/images/procedure/cname解析添加.png)
 
-**4）、解析验证**
+**4）、解析验证-手动解析可以帮助客户确认添加的解析是否正确**
 
-    方法一：控制台自动化工具检测，点击验证按钮，显示匹配则解析添加成功，验证按钮工具只是辅助客户验证的工具，不是最终证书签发的依据
-   
-![](/images/procedure/Cname解析验证按钮.png)
     
-    方法二：本地客户端shell命令验证，nslookup -q=CNAME 文件记录.主域名
-    
-    手动解析可以帮助客户确认添加的解析是否正确
+ 本地客户端shell命令验证，nslookup -q=CNAME 文件记录.主域名      
     
 ![](/images/procedure/cname手动解析验证.png)
+
+
+证书吊销使用txt验证的订单，命令使用nslookup -q=TXT 主机记录.主域名
    
 
 
