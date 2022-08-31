@@ -33,17 +33,7 @@
 
 
 
-主机记录就是域名前缀，常见用法有：
 
-@： 直接解析主域名 www.ucloud.cn 或者 ucloud.cn。
-
-\*： 泛解析，匹配其他所有域名 \*.ucloud.cn。
-
-mail： 将域名解析为mail.ucloud.cn，通常用于解析邮箱服务器。
-
-二级域名： 如：abc.ucloud.cn，填写abc。
-
-手机网站： 如：m.ucloud.cn，填写m。
 
 
 ### 文件上传
