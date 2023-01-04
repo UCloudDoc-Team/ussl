@@ -51,6 +51,20 @@
 | [增强型EV单域名证书](ussl/process/trustasia)     | 2  | 17100  |
 | [增强型EV单域名额外增加域名](ussl/process/trustasia) | 1  | 3500/个 |
 | [增强型EV单域名额外增加域名](ussl/process/trustasia) | 2  | 6300/个 |
+| [国密域名型DV证书](ussl/process/trustasia)      | 1  | 1500    |
+| [国密域名型DV证书](ussl/process/trustasia)      | 2  | 2700    |
+| [国密域名型DV证书](ussl/process/trustasia)      | 3  | 3900    |
+| [国密域名型DV通配符证书](ussl/process/trustasia)      | 1  | 3500    |
+| [国密域名型DV通配符证书](ussl/process/trustasia)      | 2  | 6300    |
+| [国密域名型DV通配符证书](ussl/process/trustasia)      | 3  | 9100    |
+| [国密域名型DV多域名证书](ussl/process/trustasia)      | 1  | 1500/个 |
+| [国密域名型OV证书](ussl/process/trustasia)      | 1  | 4500    |
+| [国密域名型OV证书](ussl/process/trustasia)      | 2  | 8100    |
+| [国密域名型OV证书](ussl/process/trustasia)      | 3  | 11700    |
+| [国密企业型OV通配符证书](ussl/process/trustasia)      | 1  | 13500    |
+| [国密企业型OV通配符证书](ussl/process/trustasia)      | 2  | 24300    |
+| [国密企业型OV通配符证书](ussl/process/trustasia)      | 3  | 35100    |
+| [国密企业型OV多域名证书](ussl/process/trustasia)      | 1  | 4500/个 |
 
 ## GlobalSign证书价格
 
