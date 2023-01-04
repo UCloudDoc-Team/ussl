@@ -58,9 +58,9 @@
 | [国密域名型DV通配符证书](ussl/process/trustasia)      | 2  | 6300    |
 | [国密域名型DV通配符证书](ussl/process/trustasia)      | 3  | 9100    |
 | [国密域名型DV多域名证书](ussl/process/trustasia)      | 1  | 1500/个 |
-| [国密域名型OV证书](ussl/process/trustasia)      | 1  | 4500    |
-| [国密域名型OV证书](ussl/process/trustasia)      | 2  | 8100    |
-| [国密域名型OV证书](ussl/process/trustasia)      | 3  | 11700    |
+| [国密企业型OV证书](ussl/process/trustasia)      | 1  | 4500    |
+| [国密企业型OV证书](ussl/process/trustasia)      | 2  | 8100    |
+| [国密企业型OV证书](ussl/process/trustasia)      | 3  | 11700    |
 | [国密企业型OV通配符证书](ussl/process/trustasia)      | 1  | 13500    |
 | [国密企业型OV通配符证书](ussl/process/trustasia)      | 2  | 24300    |
 | [国密企业型OV通配符证书](ussl/process/trustasia)      | 3  | 35100    |
