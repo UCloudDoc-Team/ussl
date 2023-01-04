@@ -1,6 +1,5 @@
 # 概览
 
-
 * 产品简介
     * [产品概述](/ussl/concepts/overview)
 * 如何选择SSL证书
@@ -45,7 +44,7 @@
     * [JBoss证书部署](/ussl/install/jboss)
     * [IIS服务器证书部署](/ussl/install/iis)
 * FAQ
-    * [免费证书验证问题](/ussl/faq/free)
+    * [Trustasia免费/DV证书验证常见问题](/ussl/faq/free)
     * [续费证书的申请流程和部署](/ussl/faq/xufei)
     * [免费证书验证匹配，但一直未颁发](/ussl/faq/banfa)
     * [证书订单被拒绝](/ussl/faq/refuse)

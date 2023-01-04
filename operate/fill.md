@@ -29,7 +29,7 @@
 
 在DNS服务商比如DNSPOD添加主机记录
 
-![](/images/operate/添加记录.png)
+![](/images/procedure/cname解析添加.png)
 
 
 
