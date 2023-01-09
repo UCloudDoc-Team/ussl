@@ -17,7 +17,7 @@
         * [GeoTrust企业型SSL证书](/ussl/process/geotrust/ov)
     * TrustAsia证书
         * [TrustAsia域名型证书](/ussl/process/TrustAsia/trustasia-ov)
-        * [TrustAsia域名型证书](/ussl/process/TrustAsia/trustasia-gm)
+        * [TrustAsia国密证书](/ussl/process/TrustAsia/trustasia-gm)
     
     * [CFCA证书](/ussl/process/CFCA)
     * [SZCA证书](/ussl/process/SZCA)
