@@ -11,4 +11,4 @@ Authority（CA）机构只验证域名所有权，不会人工介入审核验证
 
 具体使用方法参见手册：
 
-[DV证书自主检测工具手册](http://sslfiles.ufile.ucloud.com.cn/DV证书自主检测工具手册.docx)
+[DV证书自主检测工具手册](https://sslfiles.cn-bj.ufileos.com/DV%E8%AF%81%E4%B9%A6%E8%87%AA%E4%B8%BB%E6%A3%80%E6%B5%8B%E5%B7%A5%E5%85%B7%E6%89%8B%E5%86%8C.docx)
