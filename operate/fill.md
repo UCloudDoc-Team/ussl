@@ -24,12 +24,12 @@
 
 **CNAME记录值**：根据域名返回的唯一的CNAME记录值，请到您的DNS服务商处尽快添加CNAME记录。
 
-<wrap em>请尽快于 24 小时内手动设置 DNS 解析记录，验证通过后 20
+<wrap em>请尽快于 24 小时内手动设置 DNS 解析记录，通过后 20
 分钟内即可签发证书，超时将导致申请失败。</wrap>
 
 在DNS服务商比如DNSPOD添加主机记录
 
-![](/images/procedure/cname解析添加.png)
+![](/images/operate/dnsyz2.png)
 
 
 
