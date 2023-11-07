@@ -45,7 +45,7 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 **3、填写验证信息**
 
-    在UDNS域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
+在UDNS域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
 
 ![](/images/operate/dnsyz2.png)
 
