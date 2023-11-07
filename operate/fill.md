@@ -36,7 +36,7 @@
 
 
 
-### 文件上传
+### 文件验证
 
 ![](/images/operate/wjyz.png)
 
@@ -51,6 +51,25 @@
 <wrap em>（2）HTTP配置检测链接：http://domain+/.well-known/pki-validation/C5704CE6BB76F223420F371E8346A609.txt</wrap>
 
 domain+为您的域名文件，内容结尾不能有回车或换行符。 文件验证不支持任何形式的跳转，需要直接响应200状态码和文件内容。
+
+
+### 解析验证
+
+**1、手动解析**：手动解析可以帮助客户确认添加的解析是否正确
+    
+ 本地客户端shell命令验证，nslookup -q=CNAME 文件记录.主域名      
+    
+![](/images/procedure/cname手动解析验证.png)
+
+
+证书吊销使用txt验证的订单，命令使用nslookup -q=TXT 主机记录.主域名
+   
+**2、亚数检测工具**
+
+https://myssl.com/dns_check.html#ssl_verify
+
+ ![](/images/procedure/亚数CNAME.png) 
+
 
 ## OV / EV 类型证书
 

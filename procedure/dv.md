@@ -35,21 +35,21 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 ### 域名验证方式一：DNS解析验证
 
-**1）、点击验证按钮**
+**1、点击验证按钮**
 
 ![](/images/procedure/验证按钮.png)
 
-**2）、获取验证信息**
+**2、获取验证信息**
 
-![](/images/procedure/cname验证信息.png)
+![](/images/operate/dnsyz.png)
 
-**3）、填写验证信息**
+**3、填写验证信息**
 
     在UDNS域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
 
-![](/images/procedure/cname解析添加.png)
+![](/images/operate/dnsyz2.png)
 
-**4）、解析验证**
+**4、解析验证**
 
 #### 方法一、手动解析可以帮助客户确认添加的解析是否正确
     
