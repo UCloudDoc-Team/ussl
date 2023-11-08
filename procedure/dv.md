@@ -1,4 +1,4 @@
-
+9300
 
 # 域名型(DV)证书购买签发流程
 
@@ -51,20 +51,15 @@ ucloud首页-\>控制台-\>全部-\>证书管理 USSL\>购买证书
 
 **4、解析验证**
 
-#### 方法一、手动解析可以帮助客户确认添加的解析是否正确
+#### 手动解析
     
- 本地客户端shell命令验证，nslookup -q=CNAME 文件记录.主域名      
+ 通过本地客户端shell命令验证确认添加的解析是否正确，nslookup -q=CNAME 文件记录.主域名      
     
 ![](/images/procedure/cname手动解析验证.png)
 
 
 证书吊销使用txt验证的订单，命令使用nslookup -q=TXT 主机记录.主域名
    
-#### 方法二、亚数检测工具
-
-https://myssl.com/dns_check.html#ssl_verify
-
- ![](/images/procedure/亚数CNAME.png) 
 
 
 
