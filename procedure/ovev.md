@@ -74,28 +74,24 @@
 
 ### 域名验证方式一：DNS解析验证
 
-**1）、点击验证按钮**
+**1、点击验证按钮**
 
 
 ![](/images/procedure/验证按钮.png)
 
-**2）、获取验证信息**
+**2、获取验证信息**
 
 ![](/images/operate/dns验证.png)
 
-**3）、填写验证信息**
+**3、填写验证信息**
 
-    在域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
+在域名解析平台或DNS服务商（如DNSPOD）新增域名解析，样例如下：
 
 ![](/images/operate/DNS解析配置.png)
 
 **4）、解析验证**
-
-    方法一：控制台自动化工具检测，点击验证按钮，显示匹配则解析添加成功
-   
-![](/images/operate/解析验证.png)
     
-    方法二：本地客户端shell命令验证，nslookup -q=TXT __dnsauth.域名
+    本地客户端shell命令验证，nslookup -q=TXT __dnsauth.域名
     
 ![](/images/operate/手动解析.png)
    
@@ -133,5 +129,3 @@ domain为 www.ucloud.cn; authKey为fileauth.txt，访问：<https://www.ucloud.c
 
 **备注：**`因为域名型(DV)的验证信息是通过签发系统自动扫描签发的，不能实现100%成功签发，若24小时之内没有签发，为保障使用，请换成升级为OV证书。`
 
-域名验证信息配置是否有效，请通过下面在线工具自助检测：
-<https://myssl.com/dns_check.html#ssl_verify>
