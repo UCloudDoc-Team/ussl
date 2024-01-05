@@ -20,7 +20,6 @@
         * [TrustAsia国密证书](/ussl/process/TrustAsia/trustasia-gm)
     
     * [CFCA证书](/ussl/process/CFCA)
-    * [SZCA证书](/ussl/process/SZCA)
 * 快速上手
     * [申请流程指南](/ussl/operate/simple)
     * [DV类型申请](/ussl/procedure/dv)
