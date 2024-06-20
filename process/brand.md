@@ -2,7 +2,7 @@
 
 # 证书品牌和证书类型
 
-SSL证书品牌主要提供三种，Digcert（原Symantec，已更名）证书、GeoTrust证书以及TrustAsia证书。
+SSL证书品牌主要提供四种，TrustAsia证书、UniTrust 证书、GeoTrust证书以及Digcert（原Symantec，已更名）证书。
 
 1\. Digicert公司是全球领先的数字证书认证机构，部署赛门铁克证书可激活互联网最受信任的诺顿安全签章。
 
